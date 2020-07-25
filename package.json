@@ -1,0 +1,33 @@
+{
+  "name": "node-base-project",
+  "version": "1.0.0",
+  "description": "node-base-project application core",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhaochunhu/node-base-project.git"
+  },
+  "keywords": [
+    "application"
+  ],
+  "author": "loli",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-tslint": "^8.1.4",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gyp": "^0.5.0",
+    "log4js": "^2.11.0",
+    "merge2": "^1.4.1",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.35"
+  }
+}

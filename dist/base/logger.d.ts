@@ -1,0 +1,11 @@
+import { Logger } from "log4js";
+declare let logger: Logger;
+declare let auditLogger: Logger;
+declare let loginLogger: Logger;
+declare let authLogger: Logger;
+declare let operateLogger: Logger;
+declare let appLogger: Logger;
+declare let sqlLogger: Logger;
+declare let requestLogger: Logger;
+declare let exceptionLogger: Logger;
+export { logger as Logger, auditLogger as AuditLogger, loginLogger as LoginLogger, authLogger as AuthLogger, operateLogger as OperateLogger, appLogger as AppLogger, sqlLogger as SQLLogger, requestLogger as RequestLogger, exceptionLogger as ExceptionLogger };
