@@ -1,0 +1,29 @@
+{
+  "app": {
+    "port": "3000",
+    "host": "127.0.0.1",
+    "captcha": true,
+    "salt": "__Silenceisgold267524534652123741",
+    "timeout": 1800
+  },
+  "sequelize": {
+    "logging": "console.log",
+    "database": "node_base_project",
+    "username": "root",
+    "password": "6fd9417c1a2b4665",
+    "options": {
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "port": "3306",
+      "dialectOptions": {
+        "supportBigNumbers": true,
+        "bigNumberStrings": true
+      },
+      "pool": {
+        "max": 500,
+        "min": 0,
+        "idle": 10000
+      }
+    }
+  }
+}

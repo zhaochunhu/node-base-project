@@ -1,0 +1,18 @@
+"use strict";
+module.exports = function (sequelize, dataTypes) {
+    const model = sequelize.define("userHealthInformation", {
+        id: {
+            type: dataTypes.STRING,
+            primaryKey: true,
+            defaultValue: dataTypes.UUIDV4,
+            comment: "用户健康信息ID",
+            field: "id",
+        }
+    }, {
+        timestamps: false,
+        tableName: "user_health_information"
+    });
+    return model;
+};
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVudGl0eS91c2VyLWhlYWx0aC1pbmZvcm1hdGlvbi91c2VyLWhlYWx0aC1pbmZvcm1hdGlvbi50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsTUFBTSxDQUFDLE9BQU8sR0FBRyxVQUFVLFNBQWMsRUFBRSxTQUFjO0lBQ3JELE1BQU0sS0FBSyxHQUFHLFNBQVMsQ0FBQyxNQUFNLENBQUMsdUJBQXVCLEVBQUU7UUFDcEQsRUFBRSxFQUFFO1lBQ0EsSUFBSSxFQUFFLFNBQVMsQ0FBQyxNQUFNO1lBQ3RCLFVBQVUsRUFBRSxJQUFJO1lBQ2hCLFlBQVksRUFBRSxTQUFTLENBQUMsTUFBTTtZQUM5QixPQUFPLEVBQUUsVUFBVTtZQUNuQixLQUFLLEVBQUUsSUFBSTtTQUNkO0tBQ0osRUFBRTtRQUNLLFVBQVUsRUFBRSxLQUFLO1FBQ2pCLFNBQVMsRUFBRSx5QkFBeUI7S0FDdkMsQ0FBQyxDQUFDO0lBQ1AsT0FBTyxLQUFLLENBQUM7QUFDakIsQ0FBQyxDQUFDIiwiZmlsZSI6ImVudGl0eS91c2VyLWhlYWx0aC1pbmZvcm1hdGlvbi91c2VyLWhlYWx0aC1pbmZvcm1hdGlvbi5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gZnVuY3Rpb24gKHNlcXVlbGl6ZTogYW55LCBkYXRhVHlwZXM6IGFueSkge1xuICAgIGNvbnN0IG1vZGVsID0gc2VxdWVsaXplLmRlZmluZShcInVzZXJIZWFsdGhJbmZvcm1hdGlvblwiLCB7XG4gICAgICAgIGlkOiB7XG4gICAgICAgICAgICB0eXBlOiBkYXRhVHlwZXMuU1RSSU5HLFxuICAgICAgICAgICAgcHJpbWFyeUtleTogdHJ1ZSxcbiAgICAgICAgICAgIGRlZmF1bHRWYWx1ZTogZGF0YVR5cGVzLlVVSURWNCxcbiAgICAgICAgICAgIGNvbW1lbnQ6IFwi55So5oi35YGl5bq35L+h5oGvSURcIixcbiAgICAgICAgICAgIGZpZWxkOiBcImlkXCIsXG4gICAgICAgIH1cbiAgICB9LCB7XG4gICAgICAgICAgICB0aW1lc3RhbXBzOiBmYWxzZSxcbiAgICAgICAgICAgIHRhYmxlTmFtZTogXCJ1c2VyX2hlYWx0aF9pbmZvcm1hdGlvblwiXG4gICAgICAgIH0pO1xuICAgIHJldHVybiBtb2RlbDtcbn07Il19
